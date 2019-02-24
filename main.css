@@ -1,0 +1,203 @@
+* {
+    font-size: 0.625rem;
+}
+
+@font-face {
+    font-family: "Helvetica";
+    src: url(./fonts/Helvetica-Condensed.otf) format("truetype");
+}
+
+body {
+
+    background-color: rgba(233, 178, 255, 0.9);
+    background-image: url('./background.svg');
+
+
+}
+
+.container {
+    display: grid;
+    grid-gap: 10px;
+    /* grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    /* grid-template-columns: repeat(auto-fill, minmax(500px, 1fr)); */
+    /* grid-template-rows: 1fr 1fr 1fr; */
+
+    margin-top: 10px;
+}
+
+header {
+    background-color: rgba(54, 54, 54, 0.8);
+    border: 2px solid #000;
+    color: #fff;
+
+}
+
+h2,
+.main-head {
+    font-size: 4rem;
+    font-family: Helvetica;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.main-head-sub {
+    font-size: 2rem;
+    font-family: Helvetica;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: -30px;
+}
+
+.head-desc {
+    font-family: Helvetica;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+
+}
+
+.sections {
+    background-color: rgba(54, 54, 54, 0.8);
+    width: 200px;
+    height: 40px;
+    margin-top: -12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sections h3 {
+    font-family: Helvetica;
+    font-size: 2.5rem;
+    padding-left: 20px;
+    padding-top: 4px;
+    color: #fff;
+    border: 2px solid #000;
+
+}
+
+.covers {
+    width: 295px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+
+.album {
+    border: 2px solid #363636;
+}
+
+
+
+.title {
+    font-size: 2rem;
+    font-family: Helvetica;
+    padding-left: 10px;
+    padding-top: 10px;
+
+
+}
+
+.year {
+    font-size: 1.4rem;
+    font-family: Helvetica;
+    padding-left: 10px;
+    border-bottom: 1px solid;
+    font-style: italic;
+    margin-top: -10px;
+
+}
+
+.link-album:link {
+    color: #000;
+    text-decoration: underline;
+}
+
+.link-album:visited {
+    color: #1A1A1A;
+}
+
+.desc {
+    font-size: 1.6rem;
+    font-family: "Abel", sans-serif;
+    font-weight: 500;
+    text-align: justify;
+    padding: 10px 15px;
+}
+
+
+#placebo {
+    background-color: rgba(181, 28, 19, 0.6);
+}
+
+#album-text-placebo {
+    background-color: rgba(181, 28, 19, 0.6);
+    padding: 0px 10px;
+    margin: 0px 10px;
+}
+
+#wyin {
+    background-color: rgba(253, 213, 0, 0.6);
+}
+
+#album-text-wyin {
+    background-color: rgba(253, 213, 0, 0.6);
+    padding: 0px 10px;
+    margin: 0px 10px;
+}
+
+#black-market {
+    background-color: rgba(196, 97, 45, 0.6);
+}
+
+#album-text-black-market {
+    background-color: rgba(196, 97, 45, 0.6);
+    padding: 0px 10px;
+    margin: 0px 10px;
+}
+
+#sleep {
+    background-color: rgba(230, 200, 170, 0.6);
+}
+
+#album-text-sleep {
+    background-color: rgba(230, 200, 170, 0.6);
+    padding: 0px 10px;
+    margin: 0px 10px;
+}
+
+#meds {
+    background-color: rgba(197, 214, 221, 0.6);
+}
+
+#album-text-meds {
+    background-color: rgba(197, 214, 221, 0.6);
+    padding: 0px 10px;
+    margin: 0px 10px;
+}
+
+#battle {
+    background-color: rgba(151, 185, 226, 0.6);
+}
+
+#album-text-battle {
+    background-color: rgba(151, 185, 226, 0.6);
+    padding: 0px 10px;
+    margin: 0px 10px;
+}
+
+#lound {
+    background-color: rgba(97, 166, 69, 0.6);
+}
+
+#album-text-lound {
+    background-color: rgba(97, 166, 69, 0.6);
+    padding: 0px 10px;
+    margin: 0px 10px;
+}
